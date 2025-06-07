@@ -60,5 +60,5 @@ for i, (chunk, score) in enumerate(scored_chunks, 1):
 
 # Step 10: Save top chunk for final answer generation
 top_chunk = scored_chunks[0][0]
-with open("top_chunk.txt", "w", encoding="utf-8") as f:
+with open("llm_top_chunk.txt", "w", encoding="utf-8") as f:
     f.write(top_chunk)

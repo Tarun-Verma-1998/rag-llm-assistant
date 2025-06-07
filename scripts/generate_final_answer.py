@@ -2,7 +2,7 @@ from transformers import T5Tokenizer, T5ForConditionalGeneration
 import torch
 
 # Load top chunk selected by LLM-as-a-Judge
-with open("top_chunk.txt", "r", encoding="utf-8") as f:
+with open("llm_top_chunk.txt", "r", encoding="utf-8") as f:
     context = f.read()
 
 # Original query

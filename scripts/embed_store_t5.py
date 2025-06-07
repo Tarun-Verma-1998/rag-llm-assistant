@@ -61,4 +61,4 @@ embeddings = encode_texts(texts)
 # Step 6: Insert into Milvus
 print("Inserting into Milvus...")
 collection.insert([ids, texts, embeddings])
-print(f"✅ Inserted {len(embeddings)} chunks into Milvus")
+print(f"Inserted {len(embeddings)} chunks into Milvus")
