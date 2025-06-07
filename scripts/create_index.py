@@ -14,4 +14,4 @@ index_params = {
 }
 collection.create_index(field_name="embedding", index_params=index_params)
 
-print("✅ Index created successfully!")
+print("Index created successfully!")
